@@ -1,13 +1,21 @@
+body{
+    background-image: url(images/paper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 table{
     margin: auto;
 }
+
+
+
 table.sport{
 	height: auto;
 }
 table.sport,table.sport td, table.sport th {
 	border: 1px solid #000000;
 }
-table.sport.td.left {
+table.sport td.left {
     text-align: left;
 }
 table.sport td{
@@ -16,6 +24,11 @@ table.sport td{
 table.sport td, table.sport th{
     margin: 2px 5px;
 }
+
+
+
+
+
 table.pics {
     height: auto;
 }
@@ -28,7 +41,6 @@ table.pics tr.header{
     font-family: sans-serif;
 }
 table.pics tr.pic {
-    background-image: url(images/paper.jpg);
     padding: 10px;
     width: 120px;
     align-items: center;
@@ -38,4 +50,14 @@ table.pics tr.note{
     color: #800000;
     text-align: center;
     padding: 5px 10px;
+}
+
+
+
+table.text {
+    padding: 5px 5px;
+    width: 60%;
+}
+table.text td.left, table.text th.left{
+    text-align: left;
 }
