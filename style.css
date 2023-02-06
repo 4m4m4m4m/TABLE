@@ -1,14 +1,6 @@
-body{
-    background-image: url(images/paper.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 table{
-    margin: auto;
+    margin: 10px;
 }
-
-
-
 table.sport{
 	height: auto;
 }
@@ -22,13 +14,8 @@ table.sport td{
     text-align: center;
 }
 table.sport td, table.sport th{
-    margin: 2px 5px;
+    padding: 2px 5px;
 }
-
-
-
-
-
 table.pics {
     height: auto;
 }
@@ -41,9 +28,10 @@ table.pics tr.header{
     font-family: sans-serif;
 }
 table.pics tr.pic {
-    padding: 10px;
+    padding: 10;
     width: 120px;
     align-items: center;
+    background-image: url(images/paper.jpg);
 }
 table.pics tr.note{
     font-family: Arial, Helvetica, sans-serif;
@@ -51,9 +39,6 @@ table.pics tr.note{
     text-align: center;
     padding: 5px 10px;
 }
-
-
-
 table.text {
     padding: 5px 5px;
     width: 60%;
